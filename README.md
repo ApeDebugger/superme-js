@@ -1,15 +1,14 @@
+# superme-js
 [![npm version](https://img.shields.io/npm/v/superme-js)](https://www.npmjs.com/package/superme-js)
 [![license](https://img.shields.io/npm/l/superme-js)](./LICENSE)
-
-## Credits
-
-Built on top of the official [SuperMe Python SDK](https://github.com/superme-ai/superme-sdk) by the SuperMe team. This package brings the same API to JavaScript/TypeScript ecosystems.
-
-# superme-js
 
 JavaScript/TypeScript SDK for the [SuperMe API](https://superme.ai) — ask experts, search perspectives, manage your knowledge library, and more.
 
 > Unofficial community SDK. Built with ❤️ by [apedebugger](https://github.com/apedebugger).
+
+## Credits
+
+Built on top of the official [SuperMe Python SDK](https://github.com/superme-ai/superme-sdk) by the SuperMe team. This package brings the same API to JavaScript/TypeScript ecosystems.
 
 ## Use Cases
 
