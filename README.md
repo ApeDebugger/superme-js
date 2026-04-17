@@ -1,8 +1,32 @@
+[![npm version](https://img.shields.io/npm/v/superme-js)](https://www.npmjs.com/package/superme-js)
+[![license](https://img.shields.io/npm/l/superme-js)](./LICENSE)
+
+## Credits
+
+Built on top of the official [SuperMe Python SDK](https://github.com/superme-ai/superme-sdk) by the SuperMe team. This package brings the same API to JavaScript/TypeScript ecosystems.
+
 # superme-js
 
 JavaScript/TypeScript SDK for the [SuperMe API](https://superme.ai) — ask experts, search perspectives, manage your knowledge library, and more.
 
 > Unofficial community SDK. Built with ❤️ by [apedebugger](https://github.com/apedebugger).
+
+## Use Cases
+
+**Personal website bot**
+Add a SuperMe-powered chat to your portfolio or CV site that answers visitor questions as you — using your own expert profile and knowledge base. Inspired by projects like [cv-santiago](https://github.com/santifer/cv-santiago).
+
+**OpenClaw bots**
+Connect SuperMe as a knowledge and identity layer inside [OpenClaw](https://github.com/openclaw/openclaw) bots — letting your agent answer questions, fetch expert perspectives, and maintain conversation memory across sessions.
+
+**WhatsApp / Telegram agents**
+Build personal AI assistants on messaging platforms that respond with expert knowledge from SuperMe, support multi-turn conversations, and let users query any expert on the network.
+
+**Second brain API**
+Use SuperMe as a knowledge backend — add articles, notes, and URLs to your library and query them through any app or agent you build.
+
+**Multi-expert group chats**
+Simulate conversations between multiple SuperMe experts on any topic using `groupConverse` — useful for research, learning, and content creation.
 
 ## Installation
 
