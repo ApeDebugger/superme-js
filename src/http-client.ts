@@ -51,7 +51,8 @@ export class HttpClient {
     try {
       envelope = JSON.parse(raw);
     } catch {
-      throw new SuperMeError(`Failed to parse response: ${raw}`);
+      const display = raw.length > 100 ? `${raw.slice(0, 100)}...` : raw;
+      throw new SuperMeError(`Failed to parse response: ${display}`);
     }
 
     if (envelope.error) {

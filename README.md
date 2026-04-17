@@ -2,7 +2,7 @@
 
 JavaScript/TypeScript SDK for the [SuperMe API](https://superme.ai) — ask experts, search perspectives, manage your knowledge library, and more.
 
-> Unofficial community SDK. Built with ❤️ by [AI Garage](https://aigarage.in).
+> Unofficial community SDK. Built with ❤️ by [apedebugger](https://github.com/apedebugger).
 
 ## Installation
 
@@ -273,4 +273,4 @@ export async function POST(req: NextRequest) {
 
 ## License
 
-MIT © [AI Garage](https://aigarage.in)
+MIT © [apedebugger](https://github.com/apedebugger)
