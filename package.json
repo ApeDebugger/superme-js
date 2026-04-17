@@ -1,0 +1,50 @@
+{
+  "name": "superme-js",
+  "version": "0.1.0",
+  "description": "JavaScript/TypeScript SDK for the SuperMe API — ask experts, search perspectives, manage knowledge, and more.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "superme",
+    "sdk",
+    "ai",
+    "expert-network",
+    "mcp",
+    "knowledge"
+  ],
+  "author": "apedebugger",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apedebugger/superme-js.git"
+  },
+  "homepage": "https://github.com/apedebugger/superme-js#readme",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
